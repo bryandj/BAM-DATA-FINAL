@@ -1,0 +1,39 @@
+#questions answered out of data - goal that NBA and NCAA wants
+
+#-- i need to identify a problem/questions to answer - aka the reason i picked my DS - what's my problem specifically
+#--EDA he would like to see
+#--build classification model off of my questions
+#what is the main point of this analysis
+#good ex. from rafa
+
+
+# is bam score a good predictor of players going to the next level?
+# Is height/wingspan associated w vertical jump
+# trends, outliers, relationship to bam score
+# why is there a 37 inch height and 10.3 weight
+# find weird stuff in data that may be a mistake - ask why it's here/where it's coming from
+
+# how many nba games/min played - correlation between scores and games played ... also filter by position
+# k nearest neighbors - 5 things that are most similarly athletically that played in the NBA
+# -- ex. if you increase vertical jump x amount, number of people playing in nba goes up x amount
+
+
+
+
+# group each of the raw results by groups of 10 or 3's to say these are the top, mid , bottom of the raw bam scores
+### catagorical ranking - who did what well - is there a trend/train amonsgt the raw results that compares simarily to the nba
+# what's the common characteritic that is in the top of the (varsity or whatever) rankings
+## - martin says if they are good at 4 way agility they are good at all scores.
+# what makes them different, stand out, etc.
+# basketball players over practice jumping because they do this every day - but don't train direction changing 
+# catagorize by rank - rank top to bottom for each category like I did for PGA DFS
+# then see if in the top 25%, x percent were good at these categories.
+# then rank them by body comp
+## --> +1, +2, +3 (teams are looking at you) 
+
+
+
+
+#martins hypothesis:
+##top ranked high school atheletes are common amongst jump and sprint
+#agility ????
