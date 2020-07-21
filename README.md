@@ -57,7 +57,7 @@ Process:
 ### # 2 Import & Clean Data
 - Dropped Hand Length and blank columns messing up data
 - Identified NAN's and blank columns then filled and replaced with means
-<img src="images/import_clean_data.png"/>
+<img src="/images/import_clean_data.png"/>
 
 ### # 3 Create Ranks (1-5) for protocols and anthros
 - Split scores into 5 groups based of standard deviations from mean
