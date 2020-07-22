@@ -91,8 +91,6 @@ Process:
 
 - Plotted reaction shuttle with respect to BAMScore
 
-<img src="images/rs_violin.png"/>
-
 <img src="images/lmplot_reaction_shuttle.png"/>
 
 
@@ -105,7 +103,7 @@ Process:
 - Created 2 similar violin plots for each parameter with respect to BAMScore
 
 <img src="images/violin_plot.png"/>
-<img src="images/violin_plot_1.png"/>
+<img src="images/rs_violin.png"/>
 
 ### # 10 Jarque-Bera Test + Threshold Identifier
 - Ran Jarque-Bera test, which is a goodness of fit test, that tests whether the sample data has a skewness and kurtosis matching a normal distribution
