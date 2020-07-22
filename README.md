@@ -57,7 +57,8 @@ Process:
 ### # 2 Import & Clean Data
 - Dropped Hand Length and blank columns messing up data
 - Identified NAN's and blank columns then filled and replaced with means
-<img src="images/import_clean_data.png"/>
+
+<img src="images/clean_data.png"/>
 
 ### # 3 Create Ranks (1-5) for protocols and anthros
 - Split scores into 5 groups based of standard deviations from mean
@@ -78,7 +79,7 @@ Process:
 <img src="images/clean_4_way_1.png"/>
 
 ### # 6 Created Random Forest Regression Model + Classifier
-- goal: figure out most important features in model
+- Goal: figure out most important features in model
 
 <img src="images/split_data.png"/>
 <img src="images/reg.png"/>
@@ -86,9 +87,9 @@ Process:
 ### # 7 Feature Importance Analysis
 - Reaction Shuttle is the most important feature and highest delineator for rank
 
-<img src="images/feature_imp.png"/>
+<img src="images/feature.png"/>
 
-- plotted reaction shuttle with respect to BAMScore
+- Plotted reaction shuttle with respect to BAMScore
 
 <img src="images/violin_plot_0.png"/>
 
@@ -98,7 +99,7 @@ Process:
 ### # 8 Scatter Matrix
 - Created scatter matrix across all ranked columns to try and visualize more trends by looking for 45 degree patterns.
 
-<img src="images/scatter_plot.png"/>
+<img src="images/scatter.png"/>
 
 ### # 9 More Visualization - Violin Plots
 - Created 2 similar violin plots for each parameter with respect to BAMScore
