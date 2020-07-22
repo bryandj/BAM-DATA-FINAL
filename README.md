@@ -91,7 +91,7 @@ Process:
 
 - Plotted reaction shuttle with respect to BAMScore
 
-<img src="images/violin_plot_0.png"/>
+<img src="images/rs_violin.png"/>
 
 <img src="images/lmplot_reaction_shuttle.png"/>
 
