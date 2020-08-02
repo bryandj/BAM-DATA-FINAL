@@ -2,7 +2,7 @@
 
 ## Description
 
-This project is an exploritory data analysis using NBA Combine assessment data from High School + Division 1 athletes who are trying to get to the next level. The purpose of this project is to identify:
+This project is an exploritory data analysis using NBA Combine assessment data from High School & Division 1 athletes who are trying to get to the next level. The purpose of this project is to identify:
 
 1) Which NBA Combine assessment is the biggest delineator for athletes that make it to the next level?
 2) How do athletes identify their strengths and weaknesses + how do they improve upon them?
@@ -45,13 +45,8 @@ Anthros (Body Measurements - Length/Size)
 - Hand Width
 
 
-## Import Libraries
-
-
-Process:
-
 ### # 1 Import Libraries
-- pandas, numpy, matplotlib, scipy, seaborn, plotly, sklearn
+- Pandas, NumPy, Matplotlib, SciPy, Seaborn, Plotly, Scikit-learn
 <img src="images/Libraries.png"/>
 
 ### # 2 Import & Clean Data
@@ -67,7 +62,7 @@ Process:
 
 ### # 4 Visualize Data
 - Plotted ranks of all protocols and anthros to see distribution
-- Plotted to find more outliers/data that did not make sense.
+- Plotted to find more outliers/data that did not make sense
 
 <img src="images/av_rank_plot.png"/>
 
@@ -93,9 +88,11 @@ Process:
 
 <img src="images/lmplot_reaction_shuttle.png"/>
 
+#### Feature Importance Results
+- INSERT
 
 ### # 8 Scatter Matrix
-- Created scatter matrix across all ranked columns to try and visualize more trends by looking for 45 degree patterns.
+- Created scatter matrix across all ranked columns to try and visualize more trends by looking for 45 degree patterns
 
 <img src="images/scatter.png"/>
 
@@ -107,13 +104,13 @@ Process:
 
 ### # 10 Jarque-Bera Test + Threshold Identifier
 - Ran Jarque-Bera test, which is a goodness of fit test, that tests whether the sample data has a skewness and kurtosis matching a normal distribution
-- Created threshold identifier to visualize additional outliers I need to take out and find threshold cutoffs for each parameter.
+- Created threshold identifier to visualize additional outliers I need to take out and find threshold cutoffs for each parameter
 
 <img src="images/thresh.png"/>
 <img src="images/thresh_1.png"/>
 
 ### # 11 K-Nearest Neighbor Classifier
-- Ran Classifier to determine which protocol contributes the most to BAMScore
+- Ran classifier to determine which protocol contributes the most to BAMScore
 
 <img src="images/kn.png"/>
 
@@ -123,7 +120,7 @@ Process:
 Import Libraries
 <img src="images/reg_lib.png"/>
 
-1) Relationship between all parameters - anthros + protocols
+1) Relationship between all parameters - Anthros + Protocols
 <img src="images/reg_all.png"/>
 
 2) Relationship between protocols
